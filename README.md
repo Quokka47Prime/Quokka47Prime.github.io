@@ -1,3 +1,7 @@
-# Quokka47Prime.github.io
+# Quokka47Prime - Projects
 
-A project I created, soon to be in the Mac App Store.
+# RSync Folders 
+
+A handy file syncronization tool available soon in the Mac App Store. 
+
+
