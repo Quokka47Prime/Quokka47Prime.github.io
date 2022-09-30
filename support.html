@@ -10,6 +10,14 @@
             background: linear-gradient(to bottom right, #33ccff 0%, #9966ff 50%);
          }
          
+         input.check {
+/*             width: 100px; */
+/*             height: 100px; */
+            transform: scale(2.25);
+            margin: 20px;
+         }
+         
+         
       </style>
       <!--    background: linear-gradient(to bottom, #ff66cc 0%, #6600ff 82%); -->
       
@@ -40,26 +48,19 @@
                </h4>
                
                <p>
-               Check box for contact information
+               Check the box for contact information.
                </p>
                
                <p>
                <form id="checkForm">
-                  <input id="spamCheck" font-size:190% type="checkbox" onchange="CheckIt(this, this.id)""> I am human 
+                  <input id="spamCheck" class="check" font-size:190% type="checkbox" onchange="CheckIt(this, this.id)""> I am human, not a spam robot.
                </form>
                </p>
                   
-                  <p id="demo">
-                  <a  href ="mailto: " >
-                  
-                  </a>
-                  </p>
-                  
-                <p>
-                       
-                <div id="output" class="out">
-                Reach us at
-                </div>
+                <p>                
+                   <div id="output" class="out">
+                   Reach us at
+                   </div>
                 </p>
                              
             </td>
